@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Share+Tech+Mono&display=swap");
+.name {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fef9c3;
+  margin-top: 2rem;
+  margin-bottom: 0.01rem;
+}
+@keyframes cursor {
+  0%,
+  40%,
+  100% {
+    opacity: 0;
+  }
+
+  50%,
+  90% {
+    opacity: 1;
+  }
+}
+
+.cursor {
+  font-weight: 600;
+  color: #f4f5ef;
+  opacity: 0;
+  animation: cursor 1s infinite;
+  animation-name: cursor;
+}
+.parent-terminal {
+  border: 1px solid rgb(241, 239, 236);
+  width: 1000px;
+  margin: 1rem auto;
+}
+.terminal-window {
+  /* background-color: cadetblue; */
+  background-color: rgb(26, 129, 129);
+  padding: 0.75rem;
+}
+.terminal {
+  font-size: 1rem;
+  display: block;
+  padding: 3rem;
+  color: rgb(35, 170, 170);
+  border-radius: 0.5rem;
+  background-color: rgb(3, 46, 48);
+  height: 300px;
+  overflow: scroll;
+}
+.terminal::-webkit-scrollbar {
+  width: 5px;
+}
+
+.terminal::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background-color: #fef9c3;
+  outline: 1px solid slategrey;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Share Tech Mono", monospace;
+  background-image: linear-gradient(0deg, rgb(7, 0, 0), rgb(27, 95, 86));
+}
+.contents {
+  color: blanchedalmond;
+  padding-left: 4rem;
+}
