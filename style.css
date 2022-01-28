@@ -51,6 +51,7 @@
   height: 300px;
   overflow: scroll;
 }
+
 .terminal::-webkit-scrollbar {
   width: 5px;
 }
@@ -63,6 +64,14 @@
   background-color: #fef9c3;
   outline: 1px solid slategrey;
 }
+.back-icon {
+  /* size: 0.5rem; */
+  width: 25px;
+}
+.resumepg {
+  /* color: #f4f5ef; */
+  padding: 2rem;
+}
 
 body {
   height: 100vh;
@@ -74,4 +83,28 @@ body {
 .contents {
   color: blanchedalmond;
   padding-left: 4rem;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0.5rem;
+  color: blanchedalmond;
+}
+/* .social-icons {
+  color: blanchedalmond;
+} */
+.links i {
+  color: blanchedalmond;
+}
+@media screen and (max-width: 920px) {
+  .parent-terminal {
+    width: auto;
+    /* height: 100%; */
+  }
+  .list-item-inline {
+    display: inline;
+    padding: 1.1rem;
+  }
+  .name {
+    height: 80px;
+  }
 }
