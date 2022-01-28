@@ -36,6 +36,11 @@
   background-color: rgb(26, 129, 129);
   padding: 0.75rem;
 }
+.links {
+  text-decoration: none;
+  color: rgb(35, 170, 170) !important;
+}
+
 .terminal {
   font-size: 1rem;
   display: block;
